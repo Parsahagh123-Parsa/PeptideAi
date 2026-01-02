@@ -1,0 +1,48 @@
+export const lightColors = {
+  primary: '#6200ee',
+  primaryDark: '#3700b3',
+  primaryLight: '#bb86fc',
+  secondary: '#03dac6',
+  secondaryDark: '#018786',
+  background: '#ffffff',
+  surface: '#f5f5f5',
+  error: '#b00020',
+  errorLight: '#ffebee',
+  onPrimary: '#ffffff',
+  onSecondary: '#000000',
+  onBackground: '#000000',
+  onSurface: '#000000',
+  onError: '#ffffff',
+  text: '#000000',
+  textSecondary: '#666666',
+  border: '#e0e0e0',
+  success: '#4caf50',
+  warning: '#ff9800',
+  info: '#2196f3',
+};
+
+export const darkColors = {
+  primary: '#bb86fc',
+  primaryDark: '#3700b3',
+  primaryLight: '#6200ee',
+  secondary: '#03dac6',
+  secondaryDark: '#018786',
+  background: '#121212',
+  surface: '#1e1e1e',
+  error: '#cf6679',
+  errorLight: '#3d1f1f',
+  onPrimary: '#000000',
+  onSecondary: '#000000',
+  onBackground: '#ffffff',
+  onSurface: '#ffffff',
+  onError: '#000000',
+  text: '#ffffff',
+  textSecondary: '#b0b0b0',
+  border: '#333333',
+  success: '#66bb6a',
+  warning: '#ffa726',
+  info: '#42a5f5',
+};
+
+export type ColorScheme = typeof lightColors;
+

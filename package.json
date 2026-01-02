@@ -10,7 +10,10 @@
     "web": "expo start --web",
     "test": "jest",
     "lint": "eslint . --ext .ts,.tsx",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "push": "bash scripts/push.sh",
+    "commit": "git add . && git commit",
+    "status": "git status"
   },
   "keywords": [
     "peptide",
@@ -59,4 +62,3 @@
   },
   "private": true
 }
-
